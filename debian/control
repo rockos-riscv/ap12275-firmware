@@ -1,0 +1,12 @@
+Source: ap12275-firmware
+Section: misc
+Priority: optional
+Maintainer: Han Gao <gaohan@iscas.ac.cn>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
+
+Package: ap12275-firmware
+Architecture: all
+Depends: ${misc:Depends}
+Description: ap12275-firmware for RockOS
